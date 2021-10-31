@@ -1,9 +1,9 @@
 # handwriting-classification-app
 Contains two streamlit apps: one to make handwritten data and one to classify based on new input (uses random forests, naive Bayes and convolutional neural networks). 
 
-The app is currently live at http://128.199.54.172:8501/
+At the time of writing the app was live at http://128.199.54.172:8501/
 
-These steps were taken to build the app:
+It won't be there forever unfortunately, but these are the steps that were taken to build the app, so that it might return again:
 
 1. Write handwriting-data-app.py
 2. Open handwriting-data-app.py locally by executing "streamlit run handwriting-data-app.py" in a terminal in the working directory containing the files of this repository.
