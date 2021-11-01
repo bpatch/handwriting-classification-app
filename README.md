@@ -20,5 +20,5 @@ It won't be there forever unfortunately, but these are the steps that were taken
 I wrote these notes for myself, but if you are reading up to here I hope they have been useful to you too! 
 
 Extras: 
-- Once the app is running in the container, it's files can be copied using "docker container cp CONTAINER:/app ./"
+- Once the app is running in the container, its files can be copied using "docker container cp CONTAINER:/app ./"
 - Currently the cnn model deletes a folder and then rewrites it during learning. This causes the app to break when there are multiple users. 
