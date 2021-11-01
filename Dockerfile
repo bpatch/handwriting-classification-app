@@ -4,4 +4,4 @@ WORKDIR /app
 RUN pip3 install --no-cache-dir -r requirements.txt
 EXPOSE 8501
 ENTRYPOINT ["streamlit", "run"]
-CMD ["handwriting-classification-app.py"]
+CMD ["handwriting-classification-app-v2.py"]
