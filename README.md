@@ -20,3 +20,4 @@ I wrote these notes for myself, but if you are reading up to here I hope they ha
 Extras: 
 - Once the app is running in the container, its files can be copied using "docker container cp CONTAINER:/app ./"
 - Currently the cnn model deletes a folder and then rewrites it during learning. This causes the app to break when there are multiple users. 
+- The learning part of workflow could be done locally before being run on the server, reducing the RAM requirement of the server). 
